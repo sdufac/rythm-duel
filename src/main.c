@@ -158,10 +158,10 @@ void main_loop(void) {
     }
   }
 
-  if (IsKeyPressed(KEY_S)) {
+  if (IsKeyPressed(KEY_D)) {
     key_hit(0);
   }
-  if (IsKeyPressed(KEY_D)) {
+  if (IsKeyPressed(KEY_F)) {
     key_hit(1);
   }
   if (IsKeyPressed(KEY_J)) {
