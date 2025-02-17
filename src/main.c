@@ -59,7 +59,7 @@ void init(void) {
   notes[15] = (note){12, 0, 0, 0};
 }
 
-void draw_board() {
+void draw_board(void) {
 
   Rectangle outline = {1200.0f / 2 - 400, 50, board_width, 800 - 50};
   DrawRectangleLinesEx(outline, 5, WHITE);
